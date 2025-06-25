@@ -9,7 +9,7 @@
 
 body{
     background-color: #c9d6ff;
-    background: linear-gradient(to right, #aeebcf,#18d4db);
+    background: linear-gradient(to right, #0f766e, #0891b2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +47,7 @@ body{
 }
 
 .container button{
-    background-color: #512da8;
+    background-color: #0891b2; 
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -59,6 +59,12 @@ body{
     margin-top: 10px;
     cursor: pointer;
 }
+
+.container button:hover {
+  background-color: #0e7490;
+}
+
+
 
 .container button.hidden{
     background-color: transparent;
